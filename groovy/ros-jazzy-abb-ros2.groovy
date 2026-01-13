@@ -3,6 +3,7 @@ node {
     registerROS('ros:jazzy-desktop-full', [
         'ros-jazzy-abb-egm-rws-managers',
         'ros-jazzy-abb-ros2-msgs',
+        'ros-jazzy-controller-manager',
         'ros-jazzy-hardware-interface',
         'ros-jazzy-ros-testing'
     ], [])
