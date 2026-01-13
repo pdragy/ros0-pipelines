@@ -1,0 +1,9 @@
+node {
+    git url: "https://github.com/PickNikRobotics/abb_ros2.git", branch: "humble"
+    registerROS('ros:jazzy-desktop-full', [
+        'ros-jazzy-abb-egm-rws-managers',
+        'ros-jazzy-abb-ros2-msgs',
+        'ros-jazzy-hardware-interface',
+        'ros-jazzy-ros-testing'
+    ], [])
+}
