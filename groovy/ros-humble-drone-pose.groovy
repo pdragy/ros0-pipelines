@@ -1,4 +1,4 @@
 node {
-    git url: "https://github.com/Fixit-Davide/PX4-ROS2-Drone-Composable.git", branch: "Foxy_devel"
+    git url: 'https://github.com/Fixit-Davide/PX4-ROS2-Drone-Composable.git', branch: 'Foxy_devel'
     registerROS('ros:humble-ros-base', ['ros-humble-px4-msgs'], [])
 }
