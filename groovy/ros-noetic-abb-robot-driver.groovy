@@ -1,7 +1,6 @@
 node {
     git url: 'https://github.com/ros-industrial/abb_robot_driver.git', branch: 'master'
     registerROS('ros:noetic-ros-base', [
-        'libprotobuf-dev',
         'protobuf-compiler',
         'ros-noetic-abb-egm-msgs',
         'ros-noetic-abb-egm-rws-managers',
