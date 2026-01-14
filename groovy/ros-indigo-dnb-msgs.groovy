@@ -1,4 +1,4 @@
 node {
     git url: "https://github.com/dragandbot/dragandbot_common.git", branch: "devel"
-    dir ("dnb_msgs") { registerROS('ros:indigo-desktop-full', ['cmake3'], []) }
+    dir ("dnb_msgs") { registerROS('ros:indigo-ros-base', ['cmake3'], []) }
 }

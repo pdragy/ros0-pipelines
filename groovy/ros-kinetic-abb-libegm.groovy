@@ -1,4 +1,4 @@
 node {
     git url: "https://github.com/ros-industrial/abb_libegm.git", branch: "master"
-    registerROS('ros:kinetic-desktop-full', ['protobuf-compiler'], [])
+    registerROS('ros:kinetic-ros-base', ['libprotobuf-dev', 'protobuf-compiler'], [])
 }

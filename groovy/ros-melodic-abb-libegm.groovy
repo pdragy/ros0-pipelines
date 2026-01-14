@@ -1,4 +1,4 @@
 node {
     git url: "https://github.com/ros-industrial/abb_libegm.git", branch: "master"
-    registerROS('ros:melodic-desktop-full', [], [])
+    registerROS('ros:melodic-ros-base', ['libprotobuf-dev', 'protobuf-compiler'], [])
 }
