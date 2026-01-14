@@ -1,4 +1,4 @@
 node {
     git url: "https://github.com/PX4/px4_msgs.git", branch: "main"
-    registerROS('ros:jazzy-desktop-full', [], [])
+    registerROS('ros:jazzy-ros-base', [], [])
 }
