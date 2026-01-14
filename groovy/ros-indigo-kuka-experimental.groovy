@@ -1,5 +1,5 @@
 node {
-    git url: "https://github.com/ros-industrial/kuka_experimental.git", branch: "indigo-devel"
+    git url: 'https://github.com/ros-industrial/kuka_experimental.git', branch: 'indigo-devel'
     registerROS('ros:indigo-desktop-full', [
         'ros-indigo-controller-manager',
         'ros-indigo-industrial-robot-client',

@@ -1,5 +1,5 @@
 node {
-    git url: "https://github.com/PickNikRobotics/abb_ros2.git", branch: "humble"
+    git url: 'https://github.com/PickNikRobotics/abb_ros2.git', branch: 'humble'
     registerROS('ros:humble-desktop-full', [
         'libpoco-dev',
         'ros-humble-abb-egm-rws-managers',

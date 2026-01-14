@@ -1,5 +1,5 @@
 node {
-    git url: "https://github.com/ros-industrial/abb_robot_driver.git", branch: "master"
+    git url: 'https://github.com/ros-industrial/abb_robot_driver.git', branch: 'master'
     registerROS('ros:melodic-ros-base', [
         'libprotobuf-dev',
         'protobuf-compiler',
