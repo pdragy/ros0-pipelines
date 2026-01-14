@@ -1,8 +1,9 @@
 node {
     git url: 'https://github.com/ros-industrial/kuka_experimental.git', branch: 'melodic-devel'
-    registerROS('ros:noetic-desktop-full', [
+    registerROS('ros:noetic-desktop', [
         'ros-noetic-controller-manager',
         'ros-noetic-industrial-robot-client',
-        'ros-noetic-joint-limits-interface'
+        'ros-noetic-joint-limits-interface',
+        'ros-noetic-realtime-tools'
     ], [])
 }
