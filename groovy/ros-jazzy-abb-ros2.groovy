@@ -1,5 +1,5 @@
 node {
-    git url: 'https://github.com/PickNikRobotics/abb_ros2.git', branch: 'humble'
+    git url: 'https://github.com/PickNikRobotics/abb_ros2.git', branch: 'rolling'
     registerROS('ros:jazzy-desktop-full', [
         'ros-jazzy-abb-egm-rws-managers',
         'ros-jazzy-abb-ros2-msgs',
