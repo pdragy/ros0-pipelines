@@ -9,5 +9,9 @@ node {
         'ros-jazzy-joint-state-publisher',
         'ros-jazzy-joint-trajectory-controller',
         'ros-jazzy-ros-testing'
-    ], [])
+    ], [
+        'ros-jazzy-controller-manager',
+        'ros-jazzy-joint-state-broadcaster',
+        'ros-jazzy-joint-trajectory-controller'
+    ])
 }

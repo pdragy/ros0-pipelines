@@ -10,5 +10,9 @@ node {
         'ros-humble-joint-state-publisher',
         'ros-humble-joint-trajectory-controller',
         'ros-humble-ros-testing'
-    ], [])
+    ], [
+        'ros-humble-controller-manager',
+        'ros-humble-joint-state-broadcaster',
+        'ros-humble-joint-trajectory-controller'
+    ])
 }
