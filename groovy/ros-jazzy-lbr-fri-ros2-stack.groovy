@@ -1,6 +1,6 @@
 node {
     git url: 'https://github.com/lbr-stack/lbr_fri_ros2_stack.git', branch: 'jazzy'
-    registerROS('ros:humble-ros-base', [
+    registerROS('ros:jazzy-ros-base', [
         'ros-jazzy-controller-interface',
         'ros-jazzy-fri-client-sdk',
         'ros-jazzy-kinematics-interface',
