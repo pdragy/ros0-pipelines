@@ -7,5 +7,9 @@ node {
         'ros-jazzy-lbr-fri-idl',
         'ros-jazzy-moveit-ros-planning-interface',
         'ros-jazzy-realtime-tools'
-    ], [])
+    ], [
+        'ros-jazzy-controller-manager',
+        'ros-jazzy-joint-state-broadcaster',
+        'ros-jazzy-joint-trajectory-controller'
+    ])
 }

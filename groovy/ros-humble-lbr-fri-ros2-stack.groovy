@@ -7,5 +7,9 @@ node {
         'ros-humble-lbr-fri-idl',
         'ros-humble-moveit-ros-planning-interface',
         'ros-humble-realtime-tools'
-    ], [])
+    ], [
+        'ros-humble-controller-manager',
+        'ros-humble-joint-state-broadcaster',
+        'ros-humble-joint-trajectory-controller'
+    ])
 }
