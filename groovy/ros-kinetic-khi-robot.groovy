@@ -1,13 +1,16 @@
 node {
     git url: 'https://github.com/Kawasaki-Robotics/khi_robot.git', branch: 'master'
-    registerROS('ros:kinetic-ros-base', [
+    registerROS('ros:kinetic-desktop-full', [
         'libopenblas-dev',
         'ros-kinetic-controller-manager',
-        'ros-kinetic-diagnostic-updater',
         'ros-kinetic-joint-limits-interface',
+        'ros-kinetic-joint-trajectory-controller',
+        'ros-kinetic-moveit-commander',
         'ros-kinetic-moveit-core',
-        'ros-kinetic-realtime-tools',
-        'ros-kinetic-tf-conversions',
+        'ros-kinetic-moveit-planners',
+        'ros-kinetic-moveit-ros-move-group',
+        'ros-kinetic-moveit-ros-planning',
+        'ros-kinetic-moveit-simple-controller-manager',
         'ros-kinetic-transmission-interface'
     ], [])
 }

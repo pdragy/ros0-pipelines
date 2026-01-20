@@ -4,6 +4,7 @@ node {
         'ros-hydro-control-msgs',
         'ros-hydro-industrial-robot-client',
         'ros-hydro-roslaunch',
-        'ros-hydro-roslint'
+        'ros-hydro-roslint',
+        'ros-hydro-xacro'
     ], [])
 }

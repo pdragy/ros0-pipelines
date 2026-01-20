@@ -1,13 +1,13 @@
 node {
     git url: 'https://github.com/Kawasaki-Robotics/khi_robot.git', branch: 'master'
-    registerROS('ros:melodic-ros-base', [
+    registerROS('ros:melodic-desktop-full', [
         'libopenblas-dev',
-        'ros-melodic-controller-manager',
-        'ros-melodic-diagnostic-updater',
-        'ros-melodic-joint-limits-interface',
+        'ros-melodic-joint-trajectory-controller',
+        'ros-melodic-moveit-commander',
         'ros-melodic-moveit-core',
-        'ros-melodic-realtime-tools',
-        'ros-melodic-tf-conversions',
-        'ros-melodic-transmission-interface'
+        'ros-melodic-moveit-planners',
+        'ros-melodic-moveit-ros-move-group',
+        'ros-melodic-moveit-ros-planning-interface',
+        'ros-melodic-moveit-simple-controller-manager'
     ], [])
 }
