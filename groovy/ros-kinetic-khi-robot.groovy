@@ -4,6 +4,7 @@ node {
         'libopenblas-dev',
         'ros-kinetic-controller-manager',
         'ros-kinetic-joint-limits-interface',
+        'ros-kinetic-joint-state-controller',
         'ros-kinetic-joint-trajectory-controller',
         'ros-kinetic-moveit-commander',
         'ros-kinetic-moveit-core',
