@@ -12,6 +12,7 @@ node {
         'ros-kinetic-moveit-ros-move-group',
         'ros-kinetic-moveit-ros-planning',
         'ros-kinetic-moveit-simple-controller-manager',
+        'ros-kinetic-position-controllers',
         'ros-kinetic-transmission-interface'
     ], [])
 }
