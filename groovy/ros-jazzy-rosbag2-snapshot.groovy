@@ -1,4 +1,4 @@
 node {
-    git url: 'https://github.com/angsa-robotics/rosbag2_snapshot.git', branch: 'main'
+    git url: 'https://github.com/gennartan/rosbag2_snapshot.git', branch: 'jazzy-devel'
     registerROS('ros:jazzy-ros-base', [], [])
 }
