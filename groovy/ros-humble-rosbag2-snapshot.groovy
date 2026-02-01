@@ -1,4 +1,4 @@
 node {
-    git url: 'https://github.com/angsa-robotics/rosbag2_snapshot.git', branch: 'main'
+    git url: 'https://github.com/gennartan/rosbag2_snapshot.git', branch: 'humble-devel'
     registerROS('ros:humble-ros-base', [], [])
 }
